@@ -146,3 +146,211 @@ cmd({
 
     }
 )
+-------//--------------------------------------------------------------------
+
+cmd({
+
+            pattern: "downcmdnew",
+
+            desc: "(menu cmdlist).",
+
+            category: "downloader",
+
+            react: "⬇️",
+
+            filename: __filename,
+
+            use: '<faded-Alan walker.>',
+
+        },
+
+        async(Void, citel, text) => {
+
+         
+
+            let buttons = [{
+
+                    buttonId: `${prefix}system`,
+
+                    buttonText: {
+
+                        displayText: "System",
+
+                    },
+
+                    type: 1,
+
+                },
+
+                  {
+
+                    buttonId: `${prefix}ping`,
+
+                    buttonText: {
+
+                        displayText: "Ping",
+
+                    },
+
+                    type: 1,
+
+                },
+
+            ];
+
+            let buttonMessage = {
+
+                image: {
+
+                    url: await botpic(),
+
+                },
+
+                caption: `
+
+📟 *Command:-* .song
+
+ℹ️ *Description:-* Song Download From Youtube
+
+🔥 *Help:-* .song ලෙලෙනා
+
+📟 *Command:-* .video
+
+ℹ️ *Description:-* Video Download From Youtube
+
+🔥 *Help:-* .video නේනා
+
+📟 *Command:-* .tgs
+
+ℹ️ *Description:-* Download Telegram Stickers
+
+🔥 *help:-* .tga Enter Telegram Sticker Url 
+
+📟 *Command:-* .ytmp4
+
+ℹ️ *Description:-* Download Video Youtube Link
+
+🔥 *Help:-* .ytmp4 Enter Youtube Video Url
+
+📟 *Command:-* .ytmp3
+
+ℹ️ *Description:-* Download Songs Youtube Link
+
+🔥 *Help:-* .ytmp3 Enter Youtube Video Url
+
+📟 *Command:-* .ytdoc
+
+ℹ️ *Description:-* Song Download Form Youtube Document
+
+🔥 *Help:-* ytdoc Enter Youtube Video Url
+
+📟 *Command:-* .mediafire
+
+ℹ️ *Description:-* Download Content From Mediafire Link
+
+🔥 *Help:-* .mediafire Enter Mediafire Url
+
+📟 *Command:-* .yts
+
+ℹ️ *Description:-* Search Youtube Videos
+
+🔥 *Help:-* .yts ලෙලෙනා
+
+📟 *Command:-* .findvideo
+
+ℹ️ *Description:-* short video mention and get information
+
+🔥*Help:-* .findvideo Mention a short video
+
+📟 *Command:-* .findsong
+
+ℹ️ *Description:-* find song from short song chip
+
+🔥 *Help:-* .findsong tag short song chip
+
+📟 *Command:-* .mp4down
+
+ℹ️ *Description:-* download mp4
+
+🔥 *Help:-* .mp4down give me a video link
+
+⦿. *REQUEST BY:* ${citel.pushName}
+
+`,
+
+                footer: tlang().footer,
+
+                buttons: buttons,
+
+                headerType: 4,
+
+            };
+
+            return Void.sendMessage(citel.chat, buttonMessage, {
+
+                quoted: citel,
+
+            });
+
+        }
+    
+
+
+      ',
+
+    
+
+         
+
+            
+
+                 
+
+             
+
+             
+
+                
+
+        
+
+           
+
+            
+
+         
+      
+           
+
+ 
+
+         
+
+            
+
+                    
+
+                   
+
+                    
+
+                   
+
+                   
+
+               
+                  
+
+                    
+
+                    
+  
+
+           
+
+                  
+
+           
+    
+
+
