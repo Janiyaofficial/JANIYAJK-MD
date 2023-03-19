@@ -122,14 +122,14 @@ cmd({
                 {
                     buttonId: `${prefix}ytmp3 ${anu.url}`,
                     buttonText: {
-                        displayText: "♫ Audio",
+                        displayText: "🙈 Audio",
                     },
                     type: 1,
                 },
                   {
                     buttonId: `${prefix}ytdoc ${anu.url}`,
                     buttonText: {
-                        displayText: "♫ Document",
+                        displayText: "❤️ Doc",
                     },
                     type: 1,
                 },
@@ -141,12 +141,13 @@ cmd({
                 caption: `
 ╭───────────────◆
 │⿻ ${tlang().title} 
-│  *Youtube Player* ✨
+│  *Janiya MD Youtube Player* ✨
 │⿻ *Title:* ${anu.title}
 │⿻ *Duration:* ${anu.timestamp}
 │⿻ *Viewers:* ${anu.views}
 │⿻ *Uploaded:* ${anu.ago}
 │⿻ *Author:* ${anu.author.name}
+| JANIYA-MD WHATSAPP BOT ❤️
 ╰────────────────◆
 ⦿ *Url* : ${anu.url}
 `,
@@ -278,7 +279,7 @@ cmd({
                 listSerch.push({
                     title: i.title,
                     rowId: `${prefix}ytmp3 ${i.url}`,
-                    description: `Secktor / ${i.timestamp}`
+                    description: `JANIYA-MD WA BOT`
                 })
             }
             const sections = [
