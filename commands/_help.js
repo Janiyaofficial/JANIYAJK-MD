@@ -23,7 +23,7 @@ Secktor.cmd({
             alias: ["menu"],
             desc: "Help list",
             category: "general",
-            react: "✨",
+            react: "🍂",
             filename: __filename
         },
         async(Void, citel, text) => {
@@ -54,7 +54,7 @@ Secktor.cmd({
                 let total = await sck1.countDocuments()
                 let str = `╭────《 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 》─────⊷\n`
                 str +=
-                    '```' + `│ ╭───────✧❁✧───────«
+                    '```' + `│ ╭───────✧JANIYA-MD BOT✧───────«
 │ │ User:- ${citel.pushName}
 │ │ Theme:- ${tlang().title}
 │ │ Prefix:- [ ${prefix} ]
@@ -65,7 +65,7 @@ Secktor.cmd({
 │ │ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
 │ │ Time:- ${time}
 │ │ Date:- ${date}
-│ ╰───────✧❁✧───────»
+│ ╰───────✧JANIYA WA BOT✧───────»
 ╰───────────────⊷\n
 ` + '```'
                 str += `╭───『 ` + fancytext('Commands', 57) + `』──◆`
@@ -85,19 +85,19 @@ Secktor.cmd({
                 let generatebutton = [{
                     buttonId: `${prefix}owner`,
                     buttonText: {
-                        displayText: 'Owner'
+                        displayText: 'Owner 🍂'
                     },
                     type: 1
                 },{
                     buttonId: `${prefix}ping`,
                     buttonText: {
-                        displayText: 'SPEED'
+                        displayText: 'SPEED 💢'
                     },
                     type: 1
                 }, {
                     buttonId: `${prefix}list`,
                     buttonText: {
-                        displayText: 'List Menu'
+                        displayText: 'List Menu ❤️'
                     },
                     type: 1
                 }]
@@ -117,7 +117,7 @@ Secktor.cmd({
             pattern: "list",
             desc: "list menu",
             category: "general",
-            react: "✅"
+            react: "🙂"
         },
         async(Void, citel) => {
             const { commands } = require('../lib');
@@ -132,7 +132,7 @@ Secktor.cmd({
 ┃ ⛥│ Commands: ${commands.length}
 ┃ ⛥│ Uptime: ${runtime(process.uptime())}
 ┃ ⛥│ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-┃ ⛥│  
+┃ ⛥│  JANIYA WA BOT ❤️
 ┃ ⛥╰───────────
 ╰━━━━━━━━━━━──⊷\n` + '```'
             str += `╭━━━━━━━━━━━────⊷\n`
@@ -151,7 +151,7 @@ Secktor.cmd({
         pattern: "owner",
         desc: "To check ping",
         category: "general",
-        react: "💜",
+        react: "🙈",
         filename: __filename
     },
     async(Void, citel) => {
@@ -188,7 +188,7 @@ Secktor.cmd({
     pattern: "file",
     desc: "to get extact name where that command is in repo.\nSo user can edit that.",
     category: "general",
-    react: "✨",
+    react: "🍂",
     filename: __filename
 },
 async(Void, citel, text) => {
